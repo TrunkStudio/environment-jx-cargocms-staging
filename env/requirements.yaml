@@ -1,7 +1,7 @@
 dependencies:
 - name: cargocms-client
   repository: http://jenkins-x-chartmuseum:8080
-  version: 0.1.12
+  version: 0.1.13
 - name: cargocms-netcore2-element
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.8.10
