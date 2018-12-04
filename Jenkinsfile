@@ -13,6 +13,8 @@ pipeline {
       steps {
         container('maven') {
           dir('env') {
+            sh 'helm repo remove jenkins-x'
+            sh 'helm repo add jenkins-x http://chartmuseum.jenkins-x.io'
             sh 'jx step helm build'
           }
         }

@@ -1,9 +1,9 @@
 dependencies:
 - name: cargocms-client
-  repository: http://jenkins-x-chartmuseum:8080
+  repository: https://chartmuseum.jx.k8s.trunksys.com
   version: 0.2.9
 - name: cargocms-netcore2-element
-  repository: http://jenkins-x-chartmuseum:8080
+  repository: https://chartmuseum.jx.k8s.trunksys.com
   version: 0.9.21
 - alias: expose
   name: exposecontroller
