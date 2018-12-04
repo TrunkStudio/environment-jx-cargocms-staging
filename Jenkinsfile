@@ -15,7 +15,6 @@ pipeline {
           dir('env') {
             
             sh 'helm init --client-only'
-            sh 'helm repo remove jenkins-x'
             sh 'helm repo add jenkins-x http://chartmuseum.jenkins-x.io'
             sh 'jx step helm build'
           }
