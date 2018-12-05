@@ -4,7 +4,7 @@ dependencies:
   version: 0.2.13
 - name: cargocms-netcore2-element
   repository: http://jenkins-x-chartmuseum:8080
-  version: 0.9.23
+  version: 0.9.24
 - alias: expose
   name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
